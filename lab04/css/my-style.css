@@ -16,3 +16,15 @@ table th,td {
     text-align: left;
     padding: 10px;
 }
+
+aside{
+    width: 30%;
+    float: left;
+}
+section{
+    width:70%;
+    float: left;
+}
+footer{
+    float: none;
+}
