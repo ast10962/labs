@@ -6,11 +6,11 @@ h2{
 }
 table{
     border: none;
-    width: 60%;  
-    position: relative;
+    width: 60%;      
 }
 table td, th{
     text-align: left;
+    position: relative;
 }
 
 .item::before{
