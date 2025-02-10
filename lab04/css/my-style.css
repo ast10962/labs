@@ -32,12 +32,6 @@ aside ul {
     list-style-type: none;    /* Remove default bullets */
 }
 
-aside li::before {
-    content: "\f061";    /* Font Awesome arrow icon */
-    font-family: "Font Awesome 5 Free";
-    padding-right: 8px;
-}
-
 section {
     width: 70%;
     float: left;
