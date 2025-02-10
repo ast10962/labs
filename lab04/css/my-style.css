@@ -10,14 +10,5 @@ table{
 }
 table td, th{
     text-align: left;
-    position: relative;
 }
 
-.item::before{
-    content: '';
-    position: relative;
-    width: 26px;
-    height: 2px;
-    background-color: #B12264;
-    bottom: -1px;
-}
