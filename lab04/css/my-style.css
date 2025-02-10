@@ -15,7 +15,7 @@ table td, th{
 
 .item::before{
     content: '';
-    position: absolute;
+    position: relative;
     width: 26px;
     height: 2px;
     background-color: #B12264;
