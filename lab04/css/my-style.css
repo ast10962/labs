@@ -5,7 +5,8 @@ h2{
     color: #BF1860;
 }
 table{
-    border: none;    
+    border: none;
+    width: 50%;  
 }
 table td, th{
     text-align: left;
