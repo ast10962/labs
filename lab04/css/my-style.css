@@ -20,7 +20,7 @@ h2 {
 table {
     border: none; /* Remove the border for the table */
     width: 60%; /* Set the width of the table to 60% */
-    padding-bottom: 100px; /* Add padding to the bottom of the table */
+    padding-bottom: 50px; /* Add padding to the bottom of the table */
 }
 
 table th,
@@ -48,7 +48,7 @@ aside ul li {
 }
 
 aside ul li ul {
-    margin-left: -20px; /* Move the nested list to the left */
+    margin-left: -45px; /* Move the nested list to the left */
 }
 
 aside ul li ul li {
@@ -75,7 +75,7 @@ footer {
     background-position: right center; /* Position the background image to the right and center vertically */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-size: contain; /* Adjust the size of the background image to fit within the footer */
-    padding: 5% 2% 20%; /* Add padding to the footer */
+    padding: 2% 2% 20%; /* Add padding to the footer */
 }
 
 footer ul {
