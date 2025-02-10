@@ -47,6 +47,10 @@ aside ul li {
     background: url(../img/nav-pills-arrow.svg) 0% 0% / 21px no-repeat;
 }
 
+aside ul li ul li{
+    background: url(../img/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat;
+}
+
 section {
     width: 70%;
     float: left;
