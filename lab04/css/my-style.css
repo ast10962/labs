@@ -27,5 +27,5 @@ section{
     float: left;
 }
 footer{
-    float: none;
+    clear: both;
 }
