@@ -1,14 +1,17 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
-h2{
+
+h2 {
     color: #BF1860;
 }
-table{
+
+table {
     border: none;
-    width: 60%;      
-}
-table td, th{
-    text-align: left;
+    width: 60%;
 }
 
+table th,
+td {
+    text-align: left;
+}
