@@ -57,15 +57,16 @@ footer {
     clear: both;
     background-color: #272935 !important;
     background-image: url('../img/footer-bg.jpg');
+    padding:5% 2% 20%;
 }
 
 footer ul {
     list-style: none; /* Remove default bullets */
     padding: 0;
     display: flex; /* Layout items horizontally */
-    justify-content: center; /* Center items horizontally */
+    justify-content:right; /* Center items horizontally */
 }
 footer ul li {
-    margin: 0 10px; /* Add space between items */
+    margin: 0 20px; /* Add space between items */
     color: white; /* Set text color to white */
 }
