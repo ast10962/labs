@@ -2,9 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1{
+h1 {
     font-size: x-large;
 }
+
 h2 {
     color: #BF1860;
 }
@@ -14,26 +15,41 @@ table {
     width: 60%;
 }
 
-table th,td {
+table th,
+td {
     width: 50%;
     text-align: left;
     vertical-align: top;
     padding: 10px;
 }
 
-aside{
+aside {
     width: 30%;
     float: left;
 }
-section{
-    width:70%;
+
+aside ul {
+    list-style-type: none;    /* Remove default bullets */
+}
+
+aside li::before {
+    content: "\f061";    /* Font Awesome arrow icon */
+    font-family: "Font Awesome 5 Free";
+    padding-right: 8px;
+}
+
+section {
+    width: 70%;
     float: left;
 }
-article{
+
+article {
     border: solid 1px #cccccc;
     padding-top: 1%;
+    padding-left: 1%;
     padding-bottom: 10%;
 }
-footer{
+
+footer {
     clear: both;
 }
