@@ -11,7 +11,7 @@ table {
     width: 60%;
 }
 
-table th,
-td {
+table th,td {
+    width: 50%;
     text-align: left;
 }
