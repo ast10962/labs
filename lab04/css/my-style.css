@@ -1,92 +1,96 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-image: url('../img/detail-bg.jpg');
-    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif; /* Set the font family for the body */
+    background-image: url('../img/detail-bg.jpg'); /* Set the background image for the body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
-header img{
-    width: 200px;
+header img {
+    width: 200px; /* Set the width of images in the header */
 }
+
 header h1 {
-    font-size: 36pt;
-    margin-top:0px;
+    font-size: 36pt; /* Set the font size for h1 elements in the header */
+    margin-top: 0px; /* Remove the top margin for h1 elements in the header */
 }
 
 h2 {
-    color: #BF1860;
+    color: #BF1860; /* Set the color for h2 elements */
 }
 
 table {
-    border: none;
-    width: 60%;
-    padding-bottom: 100px;
+    border: none; /* Remove the border for the table */
+    width: 60%; /* Set the width of the table to 60% */
+    padding-bottom: 100px; /* Add padding to the bottom of the table */
 }
 
 table th,
 td {
-    width: 50%;
-    text-align: left;
-    vertical-align: top;
-    padding: 10px;
+    width: 50%; /* Set the width of table headers and cells to 50% */
+    text-align: left; /* Align text to the left in table headers and cells */
+    vertical-align: top; /* Align content to the top in table headers and cells */
+    padding: 10px; /* Add padding to table headers and cells */
 }
 
 aside {
-    width: 30%;
-    float: left;
+    width: 30%; /* Set the width of the aside element to 30% */
+    float: left; /* Float the aside element to the left */
 }
 
 aside ul {
-    list-style-type: none;
-    /* Remove default bullets */
+    list-style-type: none; /* Remove default bullets from the list */
 }
 
 aside ul li {
-    font-size: 18px;
-    padding-left: 35px;
-    padding-bottom: 10px;
-    background: url(../img/nav-pills-arrow.svg) 0% 0% / 21px no-repeat;
+    font-size: 18px; /* Set the font size for list items in the aside */
+    padding-left: 35px; /* Add padding to the left of list items in the aside */
+    padding-bottom: 10px; /* Add padding to the bottom of list items in the aside */
+    background: url(../img/nav-pills-arrow.svg) 0% 0% / 21px no-repeat; /* Set a background image for list items in the aside */
 }
-aside ul li ul{
-    margin-left: -20px;
+
+aside ul li ul {
+    margin-left: -20px; /* Move the nested list to the left */
 }
-aside ul li ul li{
-    background: url(../img/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat;
+
+aside ul li ul li {
+    background: url(../img/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat; /* Set a different background image for nested list items in the aside */
 }
 
 section {
-    width: 70%;
-    float: left;
+    width: 70%; /* Set the width of the section element to 70% */
+    float: left; /* Float the section element to the left */
 }
 
 article {
-    border: solid 1px #cccccc;
-    padding-top: 1%;
-    padding-left: 3%;
-    padding-bottom: 10%;
+    border: solid 1px #cccccc; /* Set a solid border for the article element */
+    padding-top: 1%; /* Add padding to the top of the article element */
+    padding-left: 3%; /* Add padding to the left of the article element */
+    padding-bottom: 10%; /* Add padding to the bottom of the article element */
 }
 
 footer {
-    clear: both;
-    color: white;
-    background-color: #272935 !important;
-    background-image: url('../img/footer-bg.svg');
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: contain; /* Adjust this value as needed */
-    padding: 5% 2% 20%;
+    clear: both; /* Clear floats on both sides */
+    color: white; /* Set the text color to white */
+    background-color: #272935 !important; /* Set the background color and use !important to override other styles */
+    background-image: url('../img/footer-bg.svg'); /* Set the background image for the footer */
+    background-position: right center; /* Position the background image to the right and center vertically */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: contain; /* Adjust the size of the background image to fit within the footer */
+    padding: 5% 2% 20%; /* Add padding to the footer */
 }
 
 footer ul {
-    list-style: none; /* Remove default bullets */
-    padding: 0;
-    display: flex; /* Layout items horizontally */
-    justify-content:right; /* Center items horizontally */
+    list-style: none; /* Remove default bullets from the list */
+    padding: 0; /* Remove padding from the list */
+    display: flex; /* Layout list items horizontally */
+    justify-content: right; /* Align list items to the right */
 }
+
 footer ul li {
-    margin: 0 20px; /* Add space between items */
+    margin: 0 20px; /* Add space between list items */
 }
-footer section{
-    padding-top: 100px;
-    font-size: 16px;
-    color: #cccccc;
+
+footer section {
+    padding-top: 100px; /* Add padding to the top of the section in the footer */
+    font-size: 16px; /* Set the font size for text in the footer section */
+    color: #cccccc; /* Set the text color for the footer section */
 }
