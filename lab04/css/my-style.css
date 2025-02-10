@@ -12,7 +12,7 @@ table td, th{
     text-align: left;
 }
 
-table .item::before{
+.item::before{
     content: '';
     position: absolute;
     width: 26px;
