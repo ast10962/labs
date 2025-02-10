@@ -58,5 +58,6 @@ article {
 
 footer {
     clear: both;
+    background-color: #272935 !important;
     background-image: url('../img/footer-bg.jpg');
 }
