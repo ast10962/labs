@@ -7,6 +7,6 @@ h2{
 table{
     border: none;    
 }
-table tr{
+table td, th{
     text-align: left;
 }
