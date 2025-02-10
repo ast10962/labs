@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif; /* Set the font family for the body */
-    background-image: url('../img/detail-bg.jpg'); /* Set the background image for the body */
+    background-image: url('../images/detail-bg.jpg'); /* Set the background image for the body */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
@@ -58,7 +58,7 @@ aside ul li {
     font-size: 18px; /* Set the font size for list items in the aside */
     padding-left: 35px; /* Add padding to the left of list items in the aside */
     padding-bottom: 10px; /* Add padding to the bottom of list items in the aside */
-    background: url(../img/nav-pills-arrow.svg) 0% 0% / 21px no-repeat; /* Set a background image for list items in the aside */
+    background: url(../images/nav-pills-arrow.svg) 0% 0% / 21px no-repeat; /* Set a background image for list items in the aside */
 }
 
 aside ul li ul {
@@ -66,7 +66,7 @@ aside ul li ul {
 }
 
 aside ul li ul li {
-    background: url(../img/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat; /* Set a different background image for nested list items in the aside */
+    background: url(../images/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat; /* Set a different background image for nested list items in the aside */
 }
 
 section {
@@ -85,7 +85,7 @@ footer {
     clear: both; /* Clear floats on both sides */
     color: white; /* Set the text color to white */
     background-color: #272935 !important; /* Set the background color and use !important to override other styles */
-    background-image: url('../img/footer-bg.svg'); /* Set the background image for the footer */
+    background-image: url('../images/footer-bg.svg'); /* Set the background image for the footer */
     background-position: right center; /* Position the background image to the right and center vertically */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-size: contain; /* Adjust the size of the background image to fit within the footer */
