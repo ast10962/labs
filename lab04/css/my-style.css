@@ -58,6 +58,7 @@ article {
 
 footer {
     clear: both;
+    color: white;
     background-color: #272935 !important;
     background-image: url('../img/footer-bg.jpg') right center no-repeat;
     background-size: auto 100%;
@@ -72,5 +73,7 @@ footer ul {
 }
 footer ul li {
     margin: 0 20px; /* Add space between items */
-    color: white; /* Set text color to white */
+}
+footer section{
+    padding-top: 200px;
 }
