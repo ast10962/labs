@@ -7,6 +7,7 @@ h2{
 table{
     border: none;
     width: 50%;  
+    position: relative;
 }
 table td, th{
     text-align: left;
