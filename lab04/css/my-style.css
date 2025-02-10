@@ -1,8 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url('../img/detail-bg.jpg');
 }
 
+header {
+    background-image: url('../img/detail-bg.jpg');
+}
 h1 {
     font-size: x-large;
 }
@@ -30,10 +32,11 @@ aside {
 }
 
 aside ul {
-    list-style-type: none;    /* Remove default bullets */
+    list-style-type: none;
+    /* Remove default bullets */
 }
 
-aside ul li{
+aside ul li {
     font-size: large;
 }
 
