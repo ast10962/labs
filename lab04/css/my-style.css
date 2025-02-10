@@ -69,9 +69,11 @@ footer {
     clear: both;
     color: white;
     background-color: #272935 !important;
-    background-image: url('../img/footer-bg.jpg') right center no-repeat;
-    background-size: auto 100%;
-    padding:5% 2% 20%;
+    background-image: url('../img/footer-bg.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Adjust this value as needed */
+    padding: 5% 2% 20%;
 }
 
 footer ul {
