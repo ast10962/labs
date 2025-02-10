@@ -69,7 +69,7 @@ footer {
     clear: both;
     color: white;
     background-color: #272935 !important;
-    background-image: url('../img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.svg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain; /* Adjust this value as needed */
