@@ -69,12 +69,12 @@ aside ul li ul li {
     background: url(../images/pills-programmes-arrow-red.svg) 0% 0% / 21px no-repeat; /* Set a different background image for nested list items in the aside */
 }
 
-section {
+article {
     width: 70%; /* Set the width of the section element to 70% */
     float: left; /* Float the section element to the left */
 }
 
-article {
+section {
     border: solid 1px #cccccc; /* Set a solid border for the article element */
     padding-top: 1%; /* Add padding to the top of the article element */
     padding-left: 3%; /* Add padding to the left of the article element */
