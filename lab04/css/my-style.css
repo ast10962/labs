@@ -11,3 +11,12 @@ table{
 table td, th{
     text-align: left;
 }
+
+table .item::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background-color: #B12264;
+    bottom: -1px;
+}
