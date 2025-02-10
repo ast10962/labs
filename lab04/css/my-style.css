@@ -29,6 +29,9 @@ section{
     width:70%;
     float: left;
 }
+article{
+    border: solid 1px #cccccc;
+}
 footer{
     clear: both;
 }
