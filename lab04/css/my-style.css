@@ -4,6 +4,16 @@ body {
     background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
+.disclaimer{
+    background-color: #ffeb3b; /* Yellow highlight */
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    /* margin-bottom: 20px; */
+    font-size: 14px;
+    color: #333;
+    border-radius: 10px; /* Rounded corners */
+}
+
 header img {
     width: 200px; /* Set the width of images in the header */
 }
@@ -11,6 +21,10 @@ header img {
 header h1 {
     font-size: 36pt; /* Set the font size for h1 elements in the header */
     margin-top: 0px; /* Remove the top margin for h1 elements in the header */
+    margin-bottom: 10px;
+}
+header h2 {
+    margin-bottom: 0px;
 }
 
 h2 {
