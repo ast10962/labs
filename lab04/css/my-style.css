@@ -29,7 +29,8 @@ aside {
 }
 
 aside ul {
-    list-style-type: none;    /* Remove default bullets */
+    list-style-type: disc;    /* Remove default bullets */
+    font-size: larger;
 }
 
 section {
