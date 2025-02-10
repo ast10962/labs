@@ -61,3 +61,14 @@ footer {
     background-color: #272935 !important;
     background-image: url('../img/footer-bg.jpg');
 }
+
+footer ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    display: flex; /* Layout items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+footer ul li {
+    margin: 0 10px; /* Add space between items */
+    color: white; /* Set text color to white */
+}
