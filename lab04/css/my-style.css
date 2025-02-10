@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-image: url('../img/detail-bg.jpg');
+    background-repeat: no-repeat;
 }
 
 header img{
