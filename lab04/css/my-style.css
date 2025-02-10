@@ -40,8 +40,10 @@ aside ul {
 }
 
 aside ul li {
-    font-size: large;
+    font-size: 18px;
+    padding-left: 35px;
     padding-bottom: 10px;
+    background: url(../img/nav-pills-arrow.svg) 0% 0% / 21px no-repeat;
 }
 
 section {
