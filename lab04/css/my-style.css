@@ -30,8 +30,11 @@ aside {
 }
 
 aside ul {
-    list-style-type: disc;    /* Remove default bullets */
-    font-size: larger;
+    list-style-type: none;    /* Remove default bullets */
+}
+
+aside ul li{
+    font-size: large;
 }
 
 section {
