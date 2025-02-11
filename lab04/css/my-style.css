@@ -74,7 +74,7 @@ article {
     float: left; /* Float the section element to the left */
 }
 
-section {
+article section {
     border: solid 1px #cccccc; /* Set a solid border for the article element */
     padding-top: 1%; /* Add padding to the top of the article element */
     padding-left: 3%; /* Add padding to the left of the article element */
