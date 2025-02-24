@@ -109,3 +109,7 @@ footer section {
     color: #cccccc; /* Set the text color for the footer section */
     border: 0;
 }
+
+footer img {
+    width: 200px;
+}
