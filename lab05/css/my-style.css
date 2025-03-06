@@ -1,15 +1,13 @@
-.container{
-    background-color: rgba(236, 237, 147, 0.5);
-    width: 60%;
-    margin: 20px auto;
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: 0 auto;
 }
 
-.year{
+.year {
     color: #BF1860;
     font-size: 18pt;
 }
-
-
 
 body {
     font-family: 'Lato', sans-serif;
