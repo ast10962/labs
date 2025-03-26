@@ -1,0 +1,20 @@
+.menu-text{
+    color:black;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menu-text:hover{
+    color:darkgreen;
+}
+
+.menu-color{
+    background-color: white !important;
+}
+#banner{
+    width: 100%;
+}
+
+img{ 
+    width: 100%;
+}
