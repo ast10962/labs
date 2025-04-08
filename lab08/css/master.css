@@ -1,20 +1,36 @@
-.menu-text{
-    color:black;
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+.uow-logo {
+    width: 180px;
+}
+
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-item {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.menu-item:hover {
+    color: #04c240;
+    transition: 0.5s;
+}
+
+.green-text {
+    color: white;
+    background-color: #1E3932;
+    padding-left: 30px;
     padding-top: 30px;
-    padding-bottom: 30px;
-}
-.menu-text:hover{
-    color:darkgreen;
+
 }
 
-.menu-color{
-    background-color: white !important;
-}
-#banner{
-    width: 100%;
-}
-
-img{ 
-    width: 100%;
+.col-sm-6 {
+    padding: 0;
+    margin: 0;
 }

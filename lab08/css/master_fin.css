@@ -18,8 +18,16 @@
   font-weight: 900;
   letter-spacing: 2px;  
 }
+
+.menu-item a:hover{
+  color: darkgreen;
+}
 .margin-test{
   margin: 30px;
+}
+
+.logo-small{
+  height: 80px;
 }
 #banner{
   width:100%;
@@ -69,7 +77,14 @@
   font-size: large;
   padding: 5%;
 }
+/* Hover effect for images in the Activities section */
+#activities img {
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
 
+#activities img:hover {
+  transform: scale(1.1); /* Enlarge the image slightly */
+}
 footer{
   background-color: #eee;
   padding: 5%;
