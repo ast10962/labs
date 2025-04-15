@@ -1,0 +1,36 @@
+.box{
+    /* width: 1000px; */
+    width: 20%;
+    height: 200px;
+    overflow: scroll;
+    background-color: blueviolet;
+    color:white;
+    /* form 1: */
+    border-width: 5px;
+    border-style: solid;
+    border-color: deeppink;
+    /* form 2: */
+    border: 5px solid deeppink;
+    /* ------------- */
+    border-radius: 50px;
+    /* form 1: */
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 70px;
+    /* form 2: */
+    padding: 40px 70px 50px 60px;
+ /* padding: top right bottom left; */
+
+    /* ------------- */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+    /* form 2: */
+    margin: 20px 50px 30px 40px;
+}
+
+.fly{
+    float: right;
+}

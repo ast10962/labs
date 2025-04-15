@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	background-color: #fdf9bd;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	padding-bottom: .1em;
+}
+/* link styles */
+a:link {
+	color: #C00;
+}
+a:visited {
+	color: #921A66;
+}
+a:focus {
+	color: #921A66;
+}
+a:hover {
+	color: #921A66;
+}
+a:active {
+	color: #F00;
+}
+/* styles for the intro section */
+header {
+	text-align: center;
+	margin: 2em 0 1em;
+}
+header h1 {
+	margin-bottom: 0;
+}
+header h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #f26521;
+	margin-top: -10px;
+}
+header p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	margin: 1em;
+}
+/* styles for navigation */
+
+nav {
+	background-color: #751c54;
+	overflow: hidden;
+	width: 100%;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 20em;
+}
+nav ul li {
+	font-weight: normal;
+	text-transform: uppercase;
+	float: left;
+}
+nav ul li a {
+	display: block;
+	padding: .5em;
+	border: 1px solid #ba89a8;
+	border-radius: .5em;
+	margin: .25em;
+}
+nav ul a:link {
+	color: #fff;
+}
+nav ul a:visited {
+	color: #fff;
+}
+nav ul a:focus {
+	color: #FC6
+}
+nav ul a:hover {
+	color: #fc6;
+	border-color: #fff;
+}
+nav ul a:active {
+	color: #F00;
+}
+/* styles for the products section */
+
+#products {
+	clear: both;
+	background-color: #FFF;
+	line-height: 1.5em;
+	padding: 1em 2%;
+	border: double #FFBC53;
+	margin: 0 2% 1em;
+	float: left;
+	/*width: 55%;*/
+	box-sizing: border-box;
+	width: 60%;
+}
+#products h2 {
+	font-size: 1.2em;
+	color: #ac267b;
+	text-align: center;
+	text-transform: uppercase;
+}
+#products h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #F26521;
+	border-top: 1px solid;
+	border-left: 3px solid;
+	padding-left: 1em;
+	margin-top: 2.5em;
+}
+#products img {
+	float: left;
+	margin: 0 6px 6px 0;
+}
+#products .more {
+	clear: left;
+}
+/* styles for the testimonials box */
+
+#testimonials {
+	background: #FFBC53 url(../images/ex-circle-corner.gif) no-repeat left top;
+	color: #633;
+	font-size: .875em;
+	line-height: 1.5;
+	border-radius: 20px;
+	padding: 1em 2%;
+	margin: 0 2% 1em;
+	margin-left: 0;
+	float: right;
+	/*width: 30%;*/
+	box-sizing: border-box;
+	width: 34%;
+}
+#testimonials h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #F26521;
+	letter-spacing: 3px;
+}
+/* miscellaneous styles */
+  
+em {
+	color: #F26521;
+}
+footer {
+	color: #663333;
+	font-size: .8em;
+	text-align: center;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
