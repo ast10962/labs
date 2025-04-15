@@ -27,6 +27,9 @@ a:hover {
 a:active {
 	color: #F00;
 }
+img{
+	max-width:100%;
+}
 /* styles for the intro section */
 header {
 	text-align: center;
@@ -157,14 +160,14 @@ footer {
 	text-align: center;
 	clear: both;
 }
+/* @media screen and (max-width: 900px) {
+	body {
+		background-color: coral;
+	}	
+}
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}	
+} */
