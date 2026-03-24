@@ -74,6 +74,8 @@
 #tours{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+    background-image: url(../images/sky.jpg);
+    background-size: cover;
 }
 
 #tours h1{
