@@ -1,0 +1,97 @@
+/* . means class in CSS */
+:root{
+    --menu-space: 30px;
+    --bg-color:#024709;
+}
+
+*{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.uow-menu {
+    background-color: white !important;
+    height: 150px;    
+}
+
+.uow-menu-item a{
+    padding-left: var(--menu-space) !important; 
+    padding-right: var(--menu-space) !important; 
+}
+
+.uow-menu-item a {
+    color: black !important;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.uow-menu-item a:hover {
+    color: var(--bg-color) !important;
+    
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.row>*{
+    margin: 0px !important;
+
+}
+.content1{
+    background-color: var(--bg-color);
+    color: white;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 10% !important;
+    font-size: medium;
+}
+
+.content1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 50px;
+    font-weight: 800;
+}
+.content1 p{
+    padding-bottom: 20px !important;
+}
+.content1 button{
+    padding: 10px !important;
+}
+
+.content2{      
+    overflow: hidden;
+}
+
+.content2 img{
+    width: 100%;
+
+}
+/* Task now: change the style of the button inside your jumbotron */
+#logo{
+    width: 100px;
+}
+#tours{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+#tours h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: var(--bg-color);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 50px !important;
+}
+#tours img{
+    width: 200px;
+    text-align: center;
+}
+footer{
+ background-image: url(../images/tour-bg.jpg);
+    color: white;
+    text-align: left;
+    padding-top: 100px !important;
+    height:200px;
+}
